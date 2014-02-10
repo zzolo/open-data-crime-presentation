@@ -23,6 +23,7 @@ body section .serif {
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
   -moz-hyphens: none;
   word-wrap: break-word;
+  line-height: 1.25em;
 }
 
 .reveal img.full-image {
@@ -37,6 +38,13 @@ body section .serif {
   width: 15%;
   margin: 0 1em 1em 0;
   float: left;
+}
+
+.reveal blockquote {
+  text-align: left;
+  width: 90%;
+  padding: 1em;
+  margin-bottom: 1em;
 }
 
 #custom-map-overlay {
