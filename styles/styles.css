@@ -1,0 +1,80 @@
+body section .large {
+  font-size: 8em;
+}
+
+body section .serif {
+  font-family: serif;
+}
+
+.translucent {
+  opacity: 0.7;
+}
+
+.reveal section p {
+  font-size: 1.5em;
+  line-height: 1.25em;
+}
+
+.reveal section img {
+  border: 1px solid transparent;
+  box-shadow: none;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  -moz-hyphens: none;
+  word-wrap: break-word;
+}
+
+.reveal img.full-image {
+  width: 70%;
+}
+
+.reveal img.full-image-high {
+  width: 40%;
+}
+
+.reveal .image-grid {
+  width: 15%;
+  margin: 0 1em 1em 0;
+  float: left;
+}
+
+#custom-map-overlay {
+  position: fixed;
+  z-index: 999;
+  width: 0;
+  height: 0;
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+}
+
+#custom-map-overlay.enabled {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.narrative-highlight {
+  padding: .25em .5em;
+  background-color: #FFD966;
+}
+
+ul.attribution-list {
+  margin-top: 1em;
+}
+
+.attribution-list li {
+  width: 10%;
+  margin: 0 .5em 1em 0;
+  padding: 0;
+  float: left;
+  display: block;
+  font-size: .5em;
+  color: #969696;
+  line-height: 1.25em;
+}
